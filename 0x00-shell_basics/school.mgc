@@ -1,2 +1,2 @@
 0 string SCHOOL  School data file
-|:mime School
+file -m /path/to/school.mgc myfile.dat
