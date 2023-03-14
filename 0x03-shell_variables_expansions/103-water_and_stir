@@ -1,2 +1,2 @@
 #!/bin/bash
-printf '%x\n' $(( 0x$WATER + 0x$STIR )) > $(tty)
+echo "ibase=$WATER;obase=$bestchol;$WATER+$STIR" | bc
