@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -c1 file.txt | tr -d '\n'; echo
+awk '{printf substr($0,1,1)} END {printf "\n"}' input.txt
