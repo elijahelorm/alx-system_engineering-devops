@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(echo $((2#${BREATH})) $(echo $((2#${LOVE}))) | tr ' ' '*') | bc | tr -d '\\\n'; echo
+echo $(($BREATH*$LOVE))
